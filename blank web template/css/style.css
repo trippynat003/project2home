@@ -1,0 +1,248 @@
+@font-face{
+	font-family: "SourceSerif4";
+	src: url(../fonts/SourceSerif4.ttf);
+}
+
+@font-face{
+	font-family: "PlayfairDisplay";
+	src: url(../fonts/PlayfairDisplay.ttf);
+}
+
+@font-face{
+	font-family: "AnticDidone";
+	src: url(../fonts/AnticDidone.ttf);
+}
+
+.container {
+	width: 100vw;
+	height: auto;
+}
+
+section {
+	position: relative; 
+}
+
+/* Typography */
+
+/* For Headers/Titles */
+h1 {
+	font-face: "PlayfairDisplay";
+	font-size: 4.75em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-65%);
+	width: 100vw;
+	text-align: center;
+	
+}
+
+/* For Subheaders */
+h2 {
+	font-family: "PlayfairDisplay";
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%); /* translateX only moves the object horizontally */
+	top: 32px;
+}
+
+/* For Captions */
+h4 {
+	font-family: "PlayfairDisplay";
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 40px;
+}
+
+/* Navigation Bar */
+.navigation {
+	width: 100vw;
+	height: 80px;
+	background: black;
+	position: fixed; /* Here, we use fixed positioning so that our nav bar always stays on top of the page */
+	z-index: 1; /* having a z-index larger than 0 ensures that our nav bar is on top of other content on the page */
+	font-family: "PlayfairDisplay";
+}
+
+ul {
+	list-style: none; /* this removes bullet points on our "list" */
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 30px;
+	font-size: 1.3em;
+}
+
+li {
+	float: right; /* makes all of our links on the right side of the nav bar */
+	margin-left: 20px; /* gives 20px of spacing between each text link */
+}
+
+a {
+	color: white;
+	text-decoration: none; /* removes the underline and blue color of our text links */
+	font-family: "PlayfairDisplay";
+}
+
+li:last-child { /* last-child only targets the last item on our list, which is our home page link */
+	color: red;
+	float: left; /* make sure that the home page link is on the left of the page, not the right */
+	margin-left: 0px;
+	font-family: "PlayfairDisplay";
+
+}
+
+
+/* Home Page CSS */
+
+.home { /* this is the hero image area */
+	width: 100vw; /* makes sure that this section stretches to the entire width of the web browser */
+	height: 100vh; /* same idea but for the vertical height of the web browser */
+	background: url(../images/themethero.png) no-repeat center;
+	background-size: cover;
+	image-resolution: from-image;
+}
+
+
+
+
+
+.one {
+	width: 100vw; /* this section has a fixed width. I recommend doing this for everything outside of the hero image section */
+	height: 100vh;
+	background: lightgrey;
+	margin: auto; /* makes sure that the section is centered on the page */
+}
+
+.l_h {
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	color: black;
+	font-family: "PlayfairDisplay";
+	font-size: 3em;
+
+
+}
+
+.two {
+	width: 100vw;
+	height: 100vh;
+	background: lightgrey;
+	margin: auto;
+
+}
+
+.three {
+	width: 100vw;
+	height: 600px;
+	background: lightgrey;
+	margin: auto;
+}
+
+
+
+.four {/
+	width: 100vw;
+	height: 300px;
+	background: lightgrey;
+	margin: auto;
+	
+}
+
+.footer {
+	width: 100vw;
+	height: 100vh;
+	background: grey;
+	
+
+}
+
+
+
+
+.logo1{
+	font-family: "PlayfairDisplay" ;
+	font-size: 5em;
+	color: red;
+	position: fixed;
+	z-index: 1;
+	float: left;
+	margin-top: -45px;
+	margin-left: 80px;
+}
+
+.logo2{
+	font-family: "PlayfairDisplay";
+	font-size: 5em;
+	color: red;
+	position: fixed;
+	z-index: 1;
+	float: left;
+	margin-top: 26px;
+	margin-left: 18px;
+
+}
+
+
+
+.content1{
+	font-family: "PlayfairDisplay";
+	font-size: 2em;
+	color: black;
+	position: absolute;
+	left: 700px;
+	top: 325px;
+	width: 750px;
+}
+
+.metfifth{
+	background: url(../images/metfifth.avif);
+	width: 600px;
+	height: 330px;
+	background-size: cover;
+	position: absolute;
+	left: 50px;
+	top: 300px;
+	align-content: center;
+}
+
+
+
+.metcloisters{
+	background: url(../images/metcloisters.avif);
+	width: 600px;
+	height: 330px;
+	background-size: cover;
+	left: 50px;
+	position: absolute;
+	align-content: center;
+	float: left;
+}
+
+
+
+.container1{/*
+	width: 300px;
+	height: 500px;
+	color: lightgrey;
+	border: 1px black;
+	position: fixed;
+	margin-right: 200px;
+	margin-top: 500px;
+}
+.container{
+	height: 330px;
+	width: 600px;
+	background: url(../images/metcloisters.avif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 600px;
+	left: 50px;
+
+}

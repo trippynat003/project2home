@@ -1,0 +1,19 @@
+@font-face{
+	font-family: "SourceSerif4";
+	src: url(../fonts/SourceSerif4.ttf);
+}
+
+@font-face{
+	font-family: "PlayfairDisplay";
+	src: url(../fonts/PlayfairDisplay.ttf);
+}
+
+@font-face{
+	font-family: "AnticDidone";
+	src: url(../fonts/AnticDidone.ttf);
+}
+
+.container {
+	width: 100vw;
+	height: auto;
+}
